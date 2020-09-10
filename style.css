@@ -1,0 +1,66 @@
+ .main{
+    height: 50px;
+    display: flex;
+    background-color: springgreen;
+    flex-direction: row;
+}
+
+.logo{
+    flex : none;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: red;
+    
+}
+
+.search{
+    flex : none;
+    margin: 10px;
+    display : flex;
+    width: 900px;
+   
+}
+
+.search_text{
+    
+    width : 900px;
+    
+}
+
+.search_button{
+    width: 50px;
+
+
+}
+
+.gnb{
+    width: 100px;
+    background-color: tomato;
+    margin-left: auto;
+    flex: none;
+} 
+
+.main_div{
+    flex-direction: column;
+    height: 100px;
+}
+
+.div1{
+    flex : 1;
+    height: 100px;
+    background-color: plum;
+}
+
+.div2{
+    flex : 1;
+    height: 100px;
+    background-color: yellow;
+}
+
+.div3{
+    flex : 1;
+    height: 100px;
+    background-color: blue;
+}
